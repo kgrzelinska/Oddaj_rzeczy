@@ -2,6 +2,7 @@ import React from "react";
 import LoginRegister from './Home/LoginRegister';
 import Nav from './Home/Nav';
 import HomeHeader from "./Home/HomeHeader";
+import HomeThreeColumns from './Home/HomeThreeColums';
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
                 <Nav/>
                 <HomeHeader/>
             </div>
+            <HomeThreeColumns/>';
         </>
     )
 }
