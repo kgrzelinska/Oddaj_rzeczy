@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 // import logo from './logo.svg';
 // import './App.css';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import {
   HashRouter,
   Route,
-  Link,
+  // Link,
   Switch,
-  NavLink,
+  // NavLink,
 } from 'react-router-dom';
 import Home from './components/Home';
 

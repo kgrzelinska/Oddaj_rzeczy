@@ -1,0 +1,64 @@
+.homeHeader {
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+}
+
+div {
+  @include centralize;
+  text-align: center;
+  border: 1px solid $text;
+  width: 30%
+  //margin: 25px;
+  &:hover {
+    transition: .2s;
+    color: $hover;
+    background-color: $bg;
+    border: $hover;
+  }
+}
+
+.homeHeaderImage {
+  height: 963px;
+  background-image: url("../../assets/Home-Hero-Image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50vw;
+  background-position-x: 98%;
+  background-color: $bg;
+}
+
+.homeEmptySpace {
+  width: 20%;
+  height: 90vh;
+}
+
+.homeHeaderTextBox {
+  flex-direction: column;
+  @include centralize;
+  //text-align: center;
+  width: 40%;
+  z-index: 1;
+  h1, span {
+    color: $text;
+    font-weight: normal;
+    font-size: 2.375rem;
+  }
+}
+
+.homeTextBoxDecoration{
+  margin: 25px 0;
+  background-image: url("../../assets/Decoration.svg");
+  height: 33px;
+  width: 253px;
+  border: none;
+}
+
+.homeTextBoxBtns {
+  font-size: 2.25rem;
+  font-weight: lighter;
+  .link {
+    text-decoration: none;
+    color: $text;
+  }
+}

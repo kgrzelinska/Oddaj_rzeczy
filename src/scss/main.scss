@@ -4,12 +4,26 @@
 @import './settings/colors';
 @import './settings/fonts';
 @import './settings/flex';
+@import './settings/mixins';
 
+
+@import "./components/loginRegister";
+@import "./components/nav";
+@import "./components/homeHeader";
+@import "./components/_homeThreeColumns.scss";
 
 html, body {
   font-family: $font-base;
+  font-size: 16px;
+  color: $text;
+  overflow-x: hidden;
 }
 
+.container {
+  max-width: 1024px;
+  max-height: 100%;
+  margin: 0 auto;
+}
 
 
 //

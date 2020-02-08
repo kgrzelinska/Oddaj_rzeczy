@@ -1,0 +1,19 @@
+@mixin centralize() {
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+@mixin decoration() {
+  margin: 25px 0;
+  background-image: url(./../../assets/Decoration.svg);
+  height: 33px;
+  width: 253px;
+}

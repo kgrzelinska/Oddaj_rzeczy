@@ -1,0 +1,40 @@
+
+Nav {
+  position: absolute;
+  z-index: 1;
+  top: 1%;
+  right: 5%;
+  height: 90px;
+  margin-top: 46px;
+  li {
+    font-size: 1.125rem;
+    cursor: pointer;
+    color: $text;
+    list-style: none;
+    display: inline-block;
+    margin-left: 2rem;
+
+    &:first-child {
+      border: 0.75px solid $text2;
+      padding: 9px 20px;
+
+      &:hover {
+        color: $hover;
+        border: 0.75 pxsolid $hover;
+        transition: .1s;
+      }
+
+      &:hover {
+        color: $hover;
+        padding-bottom: 10px;
+        transition: .2s;
+        border-bottom: 2px solid $hover;
+      }
+
+      .link {
+        text-decoration: none;
+        color: $text;
+      }
+    }
+  }
+}

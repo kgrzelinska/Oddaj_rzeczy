@@ -1,0 +1,29 @@
+
+.loginRegister {
+  position: absolute;
+  z-index: 1;
+  top: 1%;
+  right: 5%;
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      font-size: .875rem;
+      color: $text2;
+      margin-left: 20px;
+         &:nth-child(2) {
+          font-size: .8125rem;
+          padding-top: 9px;
+          padding-bottom: 9px;
+          padding-left: 10px;
+          padding-right: 10px;
+          border: 0.75px solid $border;
+          }
+      .link {
+        text-decoration: none;
+        color: $text2;
+      }
+    }
+  }
+}
