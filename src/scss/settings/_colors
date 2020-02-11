@@ -6,3 +6,4 @@ $hover: #f9cb16;
 $error: #ff0000;
 $bg: #F0F1F1;
 $bg2: #ffffff;
+$number: #5E5322;

@@ -1,24 +1,45 @@
 .columns {
   background-image: url("./../../assets/3 Columns Background.png");
+  margin-top: 0px;
+
   .container {
     flex-direction: row;
+
     .column {
       flex-direction: column;
       @include centralize;
-      padding: 20px 44px;
+      padding: 20px 40px;
       font-weight: lighter;
       text-align: center;
-      &__number {
-        font-size: 5.625rem;
-        color:red;
-      }
-      &__title {
-        padding: 15px;
-        font-size: 1.125rem;
-      }
-      &__description {
-        letter-spacing: -0.36px;
-      }
+
     }
   }
 }
+
+HomeThreeColumns {
+  margin-top: 10px;
+}
+
+.columnNumber {
+  font-size: 5.625rem;
+  color: $number;
+  font-weight: lighter;
+}
+
+.columnTitle {
+  padding: 15px;
+  font-size: 1.125rem;
+  color: $text;
+  letter-spacing: -0.36px;
+}
+
+.columnDescription {
+  color: $text;
+  letter-spacing: -0.32px;
+  font-weight: light;
+}
+
+div.column.flex {
+  width: 100vh;
+}
+

@@ -1,31 +1,24 @@
 .homeHeader {
   flex-direction: row;
   align-items: center;
-  margin-top: 50px;
-}
-
-div {
-  @include centralize;
-  text-align: center;
-  border: 1px solid $text;
-  width: 30%
-  //margin: 25px;
-  &:hover {
-    transition: .2s;
-    color: $hover;
-    background-color: $bg;
-    border: $hover;
-  }
+  margin-top: 120px;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .homeHeaderImage {
-  height: 963px;
-  background-image: url("../../assets/Home-Hero-Image.jpg");
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100vh;
+  width: 40%;
+  background-image: url("../../assets/header.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 50vw;
   background-position-x: 98%;
   background-color: $bg;
+  margin-bottom: 0px;
 }
 
 .homeEmptySpace {
@@ -36,17 +29,19 @@ div {
 .homeHeaderTextBox {
   flex-direction: column;
   @include centralize;
-  //text-align: center;
-  width: 40%;
+  text-align: center;
+  width: 62%;
   z-index: 1;
+
   h1, span {
     color: $text;
     font-weight: normal;
     font-size: 2.375rem;
+    letter-spacing: -0.76px;
   }
 }
 
-.homeTextBoxDecoration{
+.homeTextBoxDecoration {
   margin: 25px 0;
   background-image: url("../../assets/Decoration.svg");
   height: 33px;
@@ -57,8 +52,27 @@ div {
 .homeTextBoxBtns {
   font-size: 2.25rem;
   font-weight: lighter;
+  margin-top: 13px;
+
   .link {
     text-decoration: none;
     color: $text;
+  }
+}
+
+
+.homeTextBoxBtns div {
+  @include centralize;
+  text-align: center;
+  border: 1px solid $text;
+  width: 310px;
+  height: 120px;
+  margin: 25px;
+
+  &:hover {
+    transition: .2s;
+    color: $hover;
+    background-color: $bg;
+    border: $hover;
   }
 }

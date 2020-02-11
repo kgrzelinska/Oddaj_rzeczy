@@ -11,8 +11,12 @@ function HomeHeader() {
                 <span>Oddaj niechciane rzeczy w zaufane ręce</span>
                 <div className="homeTextBoxDecoration"></div>
                 <div className="homeTextBoxBtns flex">
-                    <Link to="/userPanel" className="link"><div className="flex">ODDAJ RZECZY</div></Link>
-                    <Link to ="/userPanel" className="link"><div className="flex">ZORGANIZUJ ZBIÓRKĘ</div></Link>
+                    <Link to="/userPanel" className="link">
+                        <div className="flex">ODDAJ RZECZY</div>
+                    </Link>
+                    <Link to="/userPanel" className="link">
+                        <div className="flex">ZORGANIZUJ ZBIÓRKĘ</div>
+                    </Link>
                 </div>
             </div>
         </header>

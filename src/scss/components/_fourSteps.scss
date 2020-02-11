@@ -1,0 +1,24 @@
+.steps {
+  @include centralize;
+  flex-direction: column;
+}
+
+.titleText {
+  font-size: 2.375rem;
+  text-align: center;
+  letter-spacing: -0.76px;
+}
+
+.stepDescription {
+  @include decoration;
+}
+
+.stepLine {
+  width: 80px;
+  margin: 7px;
+  border-bottom: 1px solid $text;
+}
+
+.stepDescription {
+  font-size: 1rem;
+}

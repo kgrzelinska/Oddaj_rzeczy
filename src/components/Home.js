@@ -2,7 +2,9 @@ import React from "react";
 import LoginRegister from './Home/LoginRegister';
 import Nav from './Home/Nav';
 import HomeHeader from "./Home/HomeHeader";
-import HomeThreeColumns from './Home/HomeThreeColumns';
+import HomeThreeColumns from './Home/ThreeColumns/HomeThreeColumns';
+import FourSteps from "./Home/FourSteps/FourSteps";
+import AboutUs from "./Home/AboutUs";
 
 function Home() {
     return (
@@ -13,6 +15,8 @@ function Home() {
                 <HomeHeader/>
             </div>
             <HomeThreeColumns/>';
+            <FourSteps/>
+            <AboutUs/>
         </>
     )
 }
