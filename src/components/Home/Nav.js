@@ -8,8 +8,8 @@ function Nav() {
             <ul>
                 <li><NavLink to="#" smooth={"true"} className="link">Start</NavLink></li>
                 <li><Link to="#" smooth={"true"} className="link">O co chodzi?</Link></li>
-                <li><Link to="#" smooth={"true"} className="link">O nas</Link></li>
-                <li><Link to="#" smooth={"true"} className="link">Fundacja i organizacje</Link></li>
+                <li><Link to="aboutUs" smooth={"true"} className="link">O nas</Link></li>
+                <li><Link exact to="/aboutUs" smooth={"true"} className="link">Fundacja i organizacje</Link></li>
                 <li><Link to="#" smooth={"true"} className="link">Kontakt</Link></li>
             </ul>
         </nav>

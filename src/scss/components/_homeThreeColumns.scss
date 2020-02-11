@@ -27,7 +27,7 @@ HomeThreeColumns {
 }
 
 .columnTitle {
-  padding: 15px;
+  padding: 10px;
   font-size: 1.125rem;
   color: $text;
   letter-spacing: -0.36px;
@@ -37,6 +37,7 @@ HomeThreeColumns {
   color: $text;
   letter-spacing: -0.32px;
   font-weight: light;
+  margin-top: 20px;
 }
 
 div.column.flex {

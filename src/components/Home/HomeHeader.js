@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 function HomeHeader() {
     return (
-        <header className="homeHeader flex">
+        <div className="homeHeader flex">
             <div className="homeHeaderImage"></div>
             <div className="homeEmptySpace"></div>
             <div className="homeHeaderTextBox flex">
@@ -19,7 +19,7 @@ function HomeHeader() {
                     </Link>
                 </div>
             </div>
-        </header>
+        </div>
     )
 }
 

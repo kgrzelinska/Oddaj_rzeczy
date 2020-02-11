@@ -1,16 +1,34 @@
-.steps {
+.title {
   @include centralize;
   flex-direction: column;
 }
 
 .titleText {
+  padding-top: 20px;
   font-size: 2.375rem;
-  text-align: center;
-  letter-spacing: -0.76px;
 }
 
-.stepDescription {
+.titleDecoration {
   @include decoration;
+}
+
+.fourStepsBox {
+  text-align: center;
+  margin-top: 20px;
+  padding: 30px;
+  @include centralize;
+  background-color: $bg;
+}
+
+.oneStepBox {
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.stepTitle {
+  font-size: 1.125rem;
+  padding-top: 14px;
 }
 
 .stepLine {
@@ -21,4 +39,42 @@
 
 .stepDescription {
   font-size: 1rem;
+}
+
+
+@for $i from 1 through 4 {
+  .oneStepBox:nth-of-type(#{$i}) .stepIcon {
+    background-image: url("../../assets/Icon-#{$i}.svg");
+    width: 83px;
+    height: 83px;
+  }
+}
+
+.stepContainer {
+  justify-content: center;
+  .link {
+    text-decoration: none;
+    color: $text;
+  }
+}
+
+.fourStepsBtn {
+  font-size: 2.7rem;
+  font-weight: lighter;
+  @include centralize;
+  text-align: center;
+  border: 1px solid $text;
+  width: 290px;
+  height: 120px;
+  margin: 38px;
+.link {
+    text-decoration: none;
+    color: $text;
+  }
+  &:hover {
+    transition: .2s;
+    color: $hover;
+    background-color: $bg;
+    border: $hover;
+  }
 }

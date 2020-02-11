@@ -1,3 +1,7 @@
+div .homeHeader {
+  height: 610px;
+  width: 100%;
+}
 .homeHeader {
   flex-direction: row;
   align-items: center;
@@ -5,34 +9,38 @@
   justify-content: space-between;
   margin-bottom: 0px;
   padding-bottom: 0px;
+  height: 610px;
+  margin-right: 0px;
+  padding-right: 0px;
 }
 
 .homeHeaderImage {
-  top: 0;
-  left: 0;
-  position: absolute;
-  height: 100vh;
-  width: 40%;
+  //top: 0;
+  ////left: 0;
+  //position: absolute;
+  height: 610px;
+  width: 260%;
   background-image: url("../../assets/header.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: 98%;
   background-color: $bg;
-  margin-bottom: 0px;
+  //margin-bottom: 0px;
 }
 
 .homeEmptySpace {
-  width: 20%;
-  height: 90vh;
+  width: 30%;
+  height: 100vh;
 }
 
 .homeHeaderTextBox {
   flex-direction: column;
   @include centralize;
   text-align: center;
-  width: 62%;
+  width: 70%;
   z-index: 1;
-
+  padding-right: 0px;
+margin-right: 0px;
   h1, span {
     color: $text;
     font-weight: normal;
@@ -53,7 +61,6 @@
   font-size: 2.25rem;
   font-weight: lighter;
   margin-top: 13px;
-
   .link {
     text-decoration: none;
     color: $text;
@@ -68,7 +75,6 @@
   width: 310px;
   height: 120px;
   margin: 25px;
-
   &:hover {
     transition: .2s;
     color: $hover;
