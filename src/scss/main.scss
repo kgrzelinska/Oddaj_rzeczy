@@ -5,13 +5,15 @@
 @import './settings/fonts';
 @import './settings/flex';
 @import './settings/mixins';
-
 @import "./components/loginRegister";
 @import "./components/nav";
 @import "./components/homeHeader";
 @import "./components/_homeThreeColumns.scss";
 @import "./components/fourSteps";
 @import "./components/aboutUs";
+@import "./components/whoWeHelp";
+@import "./components/contact";
+@import "./components/footer";
 
 html, body {
   font-family: $font-base;
