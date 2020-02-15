@@ -1,52 +1,31 @@
-import React, {Component} from 'react';
-// import logo from './logo.svg';
-// import './App.css';
-// import ReactDOM from 'react-dom';
+import React from 'react';
+import './scss/main.scss';
 import {
     HashRouter,
     Route,
-    // Link,
     Switch,
-    // NavLink,
 } from 'react-router-dom';
 import Home from './components/Home';
+import UserPanel from './components/Home/Repeatable/UserPanel';
+import NewUserPanel from './components/Home/Repeatable/NewUserPanel';
+import Logout from './components/Logout';
 
-class App extends Component {
-    render() {
-        return (
+
+function App() {
+    return (
+        <div>
             <HashRouter>
                 <>
                     <Switch>
                         <Route exact path='/' component={Home}/>
-                        {/*<Route path='/userPanel' component={UserPanel}/>*/}
-                        {/*<Route path='/newUserPanel' component={NewUserPanel}/>*/}
+                        <Route path='/userPanel' component={UserPanel}/>
+                        <Route path='/newUserPanel' component={NewUserPanel}/>
+                        <Route path='/logout' component={Logout}/>
                     </Switch>
                 </>
             </HashRouter>
-        );
-    }
+        </div>
+    );
 }
 
 export default App;
-
-
-// function App() {
-//   return (
-//       <div className="App">
-//         <header className="App-header">
-//           <img src={logo} className="App-logo" alt="logo" />
-//           <p>
-//             Edit <code>src/App.js</code> and save to reload.
-//           </p>
-//           <a
-//               className="App-link"
-//               href="https://reactjs.org"
-//               target="_blank"
-//               rel="noopener noreferrer"
-//           >
-//             Learn React
-//           </a>
-//         </header>
-//       </div>
-//   );
-// }

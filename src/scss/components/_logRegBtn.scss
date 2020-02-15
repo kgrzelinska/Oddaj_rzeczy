@@ -1,0 +1,21 @@
+.loginRegisterBtns {
+  margin: 20px;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+  &__first, &__second {
+    background-color: $bg;
+    border: none;
+    font-weight: lighter;
+    font-size: 1rem;
+    color: $text;
+    cursor: pointer;
+    &:hover {
+      transition: .2s;
+      color: $hover;
+    }
+  }
+  &__second {
+    @include borderBtn;
+  }
+}

@@ -5,7 +5,7 @@ import HomeHeader from "./Home/HomeHeader";
 import HomeThreeColumns from './Home/ThreeColumns/HomeThreeColumns';
 import FourSteps from "./Home/FourSteps/FourSteps";
 import AboutUs from "./Home/AboutUs";
-import WhoWeHelp from "./Home/WhoWeHelp";
+// import WhoWeHelp from "./Home/WhoWeHelp";
 import Contact from "./Home/Contact";
 import Footer from "./Home/Footer";
 
@@ -20,7 +20,6 @@ function Home() {
             <HomeThreeColumns/>';
             <FourSteps/>
             <AboutUs/>
-            <WhoWeHelp/>
             <Contact/>
             <Footer/>
         </>

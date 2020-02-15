@@ -12,8 +12,12 @@
 @import "./components/fourSteps";
 @import "./components/aboutUs";
 @import "./components/whoWeHelp";
-@import "./components/contact";
 @import "./components/footer";
+@import "./components/_logout.scss";
+@import "./components/userPanel";
+@import "./components/logRegBtn";
+@import "./components/contact";
+
 
 html, body {
   font-family: $font-base;

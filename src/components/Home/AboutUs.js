@@ -1,7 +1,6 @@
 import React from "react";
 import SectionTitle from "./Repeatable/Title";
 
-
 function AboutUs() {
     return (
         <div name="about" className="about flex">

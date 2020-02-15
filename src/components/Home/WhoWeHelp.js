@@ -3,18 +3,24 @@ import SectionTitle from "./Repeatable/Title";
 
 
 class WhoWeHelp extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            currentOrganization: 1,
-            activePage: 1,
-            thingsToShow: 3
-        }
-
-        handleClick = (number) =>  { this.setState({currentOrganisation: number})
+    state = {
+        currentOrganization: 1,
+        activePage: 1,
+        thingsToShow: 3,
+        items: ["a", "b", "c", "d"]
     }
 
-render () {
+    handleClick = (number) => {
+        this.setState({currentOrganisation: number})
+    }
+
+    get fundations() {
+        const { activePage, thingsToShow, items } = this.state;
+        return items.slice(activePage * thingsToShow, activePage * thingsToShow + thingsToShow)
+    }
+
+    render() {
+        console.log(this.fundations)
         return (
             <div>
                 <div name="help" className="helpContainer flex">
@@ -26,6 +32,7 @@ render () {
 
         )
     }
+}
 
 
 
