@@ -1,1 +1,0 @@
-# oddaj_rzeczy
