@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/oddaj_rzeczy/static/css/main.b33ac340.chunk.css",
+    "main.js": "/oddaj_rzeczy/static/js/main.001af33c.chunk.js",
+    "main.js.map": "/oddaj_rzeczy/static/js/main.001af33c.chunk.js.map",
+    "runtime-main.js": "/oddaj_rzeczy/static/js/runtime-main.71818998.js",
+    "runtime-main.js.map": "/oddaj_rzeczy/static/js/runtime-main.71818998.js.map",
+    "static/js/2.7a6becb5.chunk.js": "/oddaj_rzeczy/static/js/2.7a6becb5.chunk.js",
+    "static/js/2.7a6becb5.chunk.js.map": "/oddaj_rzeczy/static/js/2.7a6becb5.chunk.js.map",
+    "index.html": "/oddaj_rzeczy/index.html",
+    "precache-manifest.94fbd1694bdf893579769f606de8442c.js": "/oddaj_rzeczy/precache-manifest.94fbd1694bdf893579769f606de8442c.js",
+    "service-worker.js": "/oddaj_rzeczy/service-worker.js",
+    "static/css/main.b33ac340.chunk.css.map": "/oddaj_rzeczy/static/css/main.b33ac340.chunk.css.map",
+    "static/js/2.7a6becb5.chunk.js.LICENSE.txt": "/oddaj_rzeczy/static/js/2.7a6becb5.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/oddaj_rzeczy/static/media/header.ef2519d2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71818998.js",
+    "static/js/2.7a6becb5.chunk.js",
+    "static/css/main.b33ac340.chunk.css",
+    "static/js/main.001af33c.chunk.js"
+  ]
+}
